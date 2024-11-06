@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Generator</title>
+</head>
+<body>
+    <h2>Enter Roll Number to View Results</h2>
+    <input type="text" id="rollNumber" placeholder="Enter Roll Number">
+    <button onclick="displayResult()">Show Result</button>
+    <select id="section">
+        <option value="first">Html</option>
+        <option value="second">CSS</option>
+        <option value="third">Java</option>
+    </select>
+
+    <!-- Separate tags for each piece of information -->
+    <div id="resultSection">
+        <h3 id="resultRollNumber"></h3>
+        <p id="resultName"></p>
+        <p id="resultMarks"></p>
+        <p id="resultPercentage"></p>
+        <p id="resultGrade"></p>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
